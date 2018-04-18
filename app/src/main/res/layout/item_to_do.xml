@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/ivToDoCover"
+        android:layout_width="@dimen/coverWidth"
+        android:layout_height="@dimen/coverHeight" />
+    <TextView
+        android:id="@+id/tvToDoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivToDoCover"/>
+    <TextView
+        android:id="@+id/tvToDoDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivToDoCover"
+        android:layout_below="@id/tvToDoTitle"/>
+</RelativeLayout>
